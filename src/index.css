@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.blogPost {
+  display: flex;
+  margin: 10px 0;
+  flex-direction: column;
+  overflow: hidden;
+}
+.blogPost pre {
+  background-color: black;
+  color: rgb(240, 54, 224);
+  font-size: 23px;
+  font-weight: 500;
+  margin: 8px 0;
+  padding: 14px;
+  border-radius: 7px;
+  overflow-x: scroll;
+  width: 90%;
+}
+.blogPost p {
+  font-size: 19px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 500;
+}
+.blogPost img {
+  width: 80%;
+  height: 303px;
+  object-fit: contain;
+  margin: 10px auto;
+}
+.blogPost h1 {
+  margin: 10px 0;
+  font-size: 32px;
+  font-weight: 800;
+}
+.blogPost h2 {
+  margin: 10px 0;
+  font-size: 29px;
+  font-weight: 700;
+}
+.blogPost h3 {
+  margin: 10px 0;
+  font-size: 26px;
+  font-weight: 600;
+}
+.blogPost h4 {
+  margin: 10px 0;
+  font-size: 23px;
+  font-weight: 400;
+}
+.blogPost h5 {
+  margin: 10px 0;
+  font-size: 20px;
+  font-weight: 400;
+}
+.blogPost h6 {
+  margin: 10px 0;
+  font-size: 19px;
+  font-weight: 400;
+}
+.blogPost li {
+  margin: 8px 15px;
+  font-size: 19px;
+  color: rgb(241, 229, 68);
+  font-weight: 600;
+}
+
+@media screen and (max-width: 700px) {
+  .blogPost h1 {
+    margin: 10px 0;
+    font-size: 26px;
+    font-weight: 800;
+  }
+  .blogPost h2 {
+    margin: 10px 0;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .blogPost h3 {
+    margin: 10px 0;
+    font-size: 23px;
+    font-weight: 600;
+  }
+  .blogPost h4 {
+    margin: 10px 0;
+    font-size: 22px;
+    font-weight: 400;
+  }
+  .blogPost h5 {
+    margin: 10px 0;
+    font-size: 21px;
+    font-weight: 400;
+  }
+  .blogPost h6 {
+    margin: 10px 0;
+    font-size: 19px;
+    font-weight: 400;
+  }
+}
