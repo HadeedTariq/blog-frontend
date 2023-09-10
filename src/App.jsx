@@ -13,7 +13,7 @@ import { NavBar, ProtectedRoute, AuthRoute, Loading } from "./components";
 import { useEffect } from "react";
 import { fetchBlogPosts } from "./store/reducres/blogReducer";
 import { useDispatch, useSelector } from "react-redux";
-export const url = "https://blog-backend-three-jade.vercel.app/api";
+export const url = import.meta.env.VITE_API_URL;
 
 function App() {
   const dispatch = useDispatch();
